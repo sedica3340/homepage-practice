@@ -372,3 +372,41 @@ section.sns .sub-container>li a .bottom .time {
     opacity: 0.4;
 }
 /* footer style */
+footer {
+    width: 100%;
+    border-top: 2px solid #ddd;
+}
+footer .inner { 
+    position: relative;
+}
+footer .inner h2 {
+    float: left;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+footer .inner ul {
+    float: left;
+    padding-top: 90px;
+}
+footer .inner .address {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+footer .inner .address li:first-child {
+    font-size: 18px;
+    font-weight: 900;
+}
+footer .inner .address li:last-child {
+    opacity: 0.4;
+    padding-top: 10px;
+    font-size: 16px;
+}
+footer .inner ul.list {
+    position: relative;
+}
+footer .inner ul.list li {
+    float: left;
+    padding-left: 70px;
+    font-weight: 600;
+    font-size: 16px;
+}
