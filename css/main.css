@@ -198,3 +198,50 @@ section.about ul.sub-container li .text .more::before {
     text-align: left;
     line-height: 30px;
 }
+/* section.innovation style */
+section.innovation .sub-container {
+    /* border: 2px solid #000; */
+    margin: 60px auto;
+    background: url(../img/product_1.jpg) no-repeat;
+    position: relative;
+    height: 540px;
+}
+
+section.innovation .sub-container .inner {
+    /* border: 3px solid #f00; */
+    position: absolute;
+    width: 80%;
+    bottom:-7%;
+    left: 50%;
+    transform: translate(-50%,0%);
+
+}
+section.innovation .sub-container .inner h3 {
+    background: #fff;
+    padding: 30px 50px;
+    font-size: 22px;
+}
+section.innovation .sub-container .inner .bottom {
+    padding: 36px 70px 36px 100px;
+    background: rgb(58, 66, 77);
+    color: #fff;
+}
+section.innovation .sub-container .inner p {
+    /* border: 2px solid #00f; */
+    float: left;
+    font-size: 16px;
+    width: 74%;
+    line-height: 1.4;
+}
+section.innovation .sub-container .inner a {
+    /* border: 2px solid #0f0; */
+    float: right;
+    font-size: 16px;
+    line-height: 1.4;
+    background: #ff8342;
+    padding: 5px 26px;
+    border-radius: 26px;
+}
+section.innovation .sub-container .inner a:hover {
+    background: #df6322;
+}
