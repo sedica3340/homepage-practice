@@ -245,3 +245,87 @@ section.innovation .sub-container .inner a {
 section.innovation .sub-container .inner a:hover {
     background: #df6322;
 }
+/* section.me style */
+section.me {
+    background: url('../img/me.jpg') no-repeat;
+    height: 890px;
+}
+section.me .title{
+    margin: 60px auto;
+    padding-top: 60px;
+}
+section.me .sub-container {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+section.me .sub-container > li {
+    padding: 35px;
+}
+section.me .sub-container  >li i {
+    color: #ff8342;
+    padding-right: 10px;
+}
+section.me .sub-container li h3 {
+    font-size: 22px;
+}
+
+section.me .sub-container li em{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 32px;
+    padding-top: 24px;
+} 
+section.me .sub-container li:nth-child(2)>p{
+    padding-left: 32px;
+    padding-top: 24px;
+} 
+section.me .sub-container li p{ 
+    font-size: 16px;
+}
+section.me .sub-container>li:first-child p {
+    line-height: 1.4;
+    padding-left: 32px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+section.me .sub-container li a {
+    padding-left: 32px;
+    font-size: 18px;
+    font-weight: bold;
+}
+section.me .sub-container .in {
+    padding-bottom: 62px;
+}
+section.me .sub-container .in li {
+    position: relative;
+}
+section.me .sub-container .in li em {
+    float: left;
+    width: 100px;
+}
+section.me .sub-container .in li p {
+    float: left;
+    padding-top: 24px;
+    padding-left: 90px;
+}
+section.me .sub-container .in li p::before {
+    content: '';
+    background: #ff8342;
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    left: 150px;
+    bottom: 0;
+    position: absolute;
+}
+section.me #incruit-btn {
+    display: block;
+    background: #ff8342;
+    border-radius: 38px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    width: 20%;
+    margin: 30px auto;
+    padding: 10px 80px;
+}
